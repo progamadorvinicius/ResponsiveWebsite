@@ -63,7 +63,7 @@
     font-weight: 700;
     letter-spacing: 1px;
 }
-.banner header .toggle.png
+.banner header .toggle
 {
     position: relative;
     width: 36px;
@@ -71,4 +71,17 @@
     background: url(toggle.png);
     background-size: cover;
     cursor: pointer;
+}
+
+.about 
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.about .contentBx 
+{
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
 }
