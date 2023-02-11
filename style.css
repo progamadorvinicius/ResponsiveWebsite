@@ -72,7 +72,6 @@
     background-size: cover;
     cursor: pointer;
 }
-
 .about 
 {
     position: relative;
@@ -84,4 +83,26 @@
     background: #162c3b;
     padding: 100px;
     width: 50%;
+}
+.heading
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text 
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.about .imgBx
+{
+    background: url(window.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
 }
